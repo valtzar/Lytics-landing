@@ -2,10 +2,10 @@
   <section class="cta" id="cta">
     <div class="container">
       <div class="cta-content">
-        <h2>¿Listo para Transformar tu Organización?</h2>
+        <h2>Diseñado para tu Realidad</h2>
         <p>
-          Únete a cientos de organizaciones que ya confían en Lytics para impulsar 
-          su crecimiento y desarrollo.
+          Un modelo predictivo que mide lo que realmente importa para tu negocio. 
+          Acompañamiento + Software = People Analytics con rigor técnico y sensibilidad organizacional.
         </p>
         <div class="cta-buttons">
           <button class="btn btn-primary btn-large">Solicitar Demo Gratuita</button>

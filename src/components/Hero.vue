@@ -3,18 +3,19 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">Desarrollo Organizacional Inteligente</h1>
-          <p class="hero-subtitle">
-            Lytics transforma cómo tu organización crece y evoluciona. 
-            Utiliza datos y análisis avanzados para impulsar el desarrollo de tu equipo.
+          <h1 class="hero-title">People Analytics Predictivo</h1>
+          <p class="hero-subtitle">Diseñado a la medida de tu organización</p>
+          <p class="hero-description">
+            LYTICS es el único software que mide tus competencias, en tu cultura y para tu negocio. 
+            No usamos plantillas genéricas. Construimos un modelo predictivo único para cada empresa.
           </p>
           <div class="hero-buttons">
             <button class="btn btn-primary">Solicitar Demo</button>
-            <button class="btn btn-secondary">Más Información</button>
+            <button class="btn btn-secondary">Conocer Más</button>
           </div>
         </div>
         <div class="hero-image">
-          <div class="hero-accent"></div>
+          <img src="@/assets/matriz talentos.svg" alt="Matriz de Talentos" class="hero-svg" />
         </div>
       </div>
     </div>
@@ -60,7 +61,14 @@ export default {
 }
 
 .hero-subtitle {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-3xl);
+  color: var(--color-primary);
+  line-height: var(--line-height-relaxed);
+  font-weight: var(--font-weight-bold);
+}
+
+.hero-description {
+  font-size: var(--font-size-lg);
   color: var(--color-gray-600);
   line-height: var(--line-height-relaxed);
 }
@@ -79,7 +87,6 @@ export default {
 .hero-image {
   position: relative;
   height: 400px;
-  background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-white) 100%);
   border-radius: var(--border-radius-lg);
   display: flex;
   align-items: center;
@@ -87,12 +94,17 @@ export default {
 }
 
 .hero-accent {
-  width: 300px;
-  height: 300px;
-  background-color: var(--color-primary);
-  border-radius: 50%;
-  opacity: 0.1;
-  animation: float 6s ease-in-out infinite;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.hero-svg {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
 }
 
 @keyframes float {

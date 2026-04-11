@@ -2,64 +2,66 @@
   <section class="features" id="features">
     <div class="container">
       <div class="features-header">
-        <h2>Características Principales</h2>
+        <h2>El Modelo de 7 Variables</h2>
         <p class="features-subtitle">
-          Lytics combina tecnología avanzada con enfoque humano para transformar tu organización
+          Validado empíricamente y patentado. Implementado en Zurich, Skechers y la Universidad de Chile.
         </p>
       </div>
 
       <div class="features-grid">
         <div class="feature-card">
-          <div class="feature-icon">📊</div>
-          <h3>Análisis Avanzado</h3>
+          <div class="feature-icon">1️⃣</div>
+          <h3>Autoevaluación</h3>
           <p>
-            Obtén insights profundos sobre el desarrollo de tu equipo con nuestras herramientas 
-            de análisis de datos en tiempo real.
+            La perspectiva del colaborador sobre su desempeño y competencias.
           </p>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">🎯</div>
-          <h3>Objetivos Claros</h3>
+          <div class="feature-icon">2️⃣</div>
+          <h3>Antigüedad en el Cargo</h3>
           <p>
-            Define y supervisa objetivos de desarrollo organizacional con métricas específicas 
-            y seguimiento continuo.
+            El tiempo que lleva desempeñando la posición actual.
           </p>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">👥</div>
-          <h3>Gestión de Talento</h3>
+          <div class="feature-icon">3️⃣</div>
+          <h3>Edad</h3>
           <p>
-            Identifica talentos, planifica el desarrollo de carrera y optimiza el potencial 
-            de tu equipo.
+            Variable demográfica que influye en el comportamiento organizacional.
           </p>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">📈</div>
-          <h3>Crecimiento Escalable</h3>
+          <div class="feature-icon">4️⃣</div>
+          <h3>Compromiso</h3>
           <p>
-            Diseña programas de desarrollo que crecen con tu organización, desde startups 
-            hasta empresas grandes.
+            Nivel de engagement y identificación con la empresa.
           </p>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">🔄</div>
-          <h3>Integración Total</h3>
+          <div class="feature-icon">5️⃣</div>
+          <h3>KPI Reales del Negocio</h3>
           <p>
-            Se integra perfectamente con tus herramientas existentes para un flujo de trabajo 
-            sin interrupciones.
+            Indicadores concretos de desempeño del colaborador.
           </p>
         </div>
 
         <div class="feature-card">
-          <div class="feature-icon">🛡️</div>
-          <h3>Seguridad Garantizada</h3>
+          <div class="feature-icon">6️⃣</div>
+          <h3>Evaluación del Líder</h3>
           <p>
-            Tus datos están protegidos con estándares de seguridad empresariales de nivel 
-            internacional.
+            Valoración de competencias desde la perspectiva de la gerencia.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">7️⃣</div>
+          <h3>Compromiso del Líder</h3>
+          <p>
+            Evaluación del nivel de commitment del jefe con su equipo.
           </p>
         </div>
       </div>
