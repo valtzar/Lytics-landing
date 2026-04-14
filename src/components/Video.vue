@@ -2,8 +2,8 @@
   <section class="video-section" id="video">
     <div class="container">
       <div class="video-header">
-        <h2>Ve Lytics en Acción</h2>
-        <p>Descubre cómo Lytics transforma el desarrollo organizacional en tiempo real</p>
+        <h2>Bienvenido a Lytics</h2>
+        <p>Descubre cómo Lytics transforma el desarrollo organizacional</p>
       </div>
 
       <div class="video-container">

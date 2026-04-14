@@ -2,8 +2,8 @@
   <section class="premium-service">
     <div class="container">
       <div class="service-header">
-        <h2>🧠 Un Servicio Premium: Acompañamiento + Software</h2>
-        <p>LYTICS no es solo tecnología. Es una metodología acompañada.</p>
+        <h2>Un Servicio Premium para Desarrollo Organizacional</h2>
+        <p>LYTICS no es solo tecnología. Es una experiencia.</p>
       </div>
 
       <div class="service-content">

@@ -19,9 +19,9 @@
 
         <div class="feature-card">
           <div class="feature-icon">2️⃣</div>
-          <h3>Antigüedad en el Cargo</h3>
+          <h3>Evaluación del Líder</h3>
           <p>
-            El tiempo que lleva desempeñando la posición actual.
+            Valoración de competencias desde la perspectiva de la gerencia.
           </p>
         </div>
 
@@ -29,7 +29,7 @@
           <div class="feature-icon">3️⃣</div>
           <h3>Edad</h3>
           <p>
-            Variable demográfica que influye en el comportamiento organizacional.
+            Variable que influye en el comportamiento organizacional.
           </p>
         </div>
 
@@ -37,7 +37,7 @@
           <div class="feature-icon">4️⃣</div>
           <h3>Compromiso</h3>
           <p>
-            Nivel de engagement y identificación con la empresa.
+            Nivel de compromiso e identificación con la empresa.
           </p>
         </div>
 
@@ -51,17 +51,17 @@
 
         <div class="feature-card">
           <div class="feature-icon">6️⃣</div>
-          <h3>Evaluación del Líder</h3>
+          <h3>Antigüedad en el Cargo</h3>
           <p>
-            Valoración de competencias desde la perspectiva de la gerencia.
+            El tiempo que lleva desempeñando la posición actual.
           </p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">7️⃣</div>
-          <h3>Compromiso del Líder</h3>
+          <h3>Ranking de Talentos</h3>
           <p>
-            Evaluación del nivel de commitment del jefe con su equipo.
+            Medición integral de colaboradores.
           </p>
         </div>
       </div>

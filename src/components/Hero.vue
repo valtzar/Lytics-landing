@@ -3,7 +3,7 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">People Analytics Predictivo</h1>
+          <h1 class="hero-title">ERP para Desarrollo Organizacional</h1>
           <p class="hero-subtitle">Diseñado a la medida de tu organización</p>
           <p class="hero-description">
             LYTICS es el único software que mide tus competencias, en tu cultura y para tu negocio. 

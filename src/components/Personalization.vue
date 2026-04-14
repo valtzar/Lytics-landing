@@ -44,7 +44,6 @@
 
       <div class="personalization-quote">
         <p>"Las competencias se diseñan por grupos de trabajo que convivan diariamente."</p>
-        <p>"Es fundamental que la Alta Gerencia determine con claridad las competencias relevantes para su organización."</p>
       </div>
     </div>
   </section>
