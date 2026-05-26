@@ -7,7 +7,7 @@
     <IntelligentAlerts />
     <PremiumService />
     <ManagerBenefits />
-    <BlogSection />
+    <Contact />
     <CTA />
   </div>
 </template>
@@ -20,7 +20,7 @@ import Features from '../components/Features.vue'
 import IntelligentAlerts from '../components/IntelligentAlerts.vue'
 import PremiumService from '../components/PremiumService.vue'
 import ManagerBenefits from '../components/ManagerBenefits.vue'
-import BlogSection from '../components/BlogSection.vue'
+import Contact from '../components/Contact.vue'
 import CTA from '../components/CTA.vue'
 
 export default {
@@ -33,7 +33,7 @@ export default {
     IntelligentAlerts,
     PremiumService,
     ManagerBenefits,
-    BlogSection,
+    Contact,
     CTA
   }
 }

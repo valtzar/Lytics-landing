@@ -7,8 +7,6 @@
           <p>Transformando el desarrollo organizacional con tecnología e innovación.</p>
           <div class="social-links">
             <a href="#" aria-label="LinkedIn">LinkedIn</a>
-            <a href="#" aria-label="Twitter">Twitter</a>
-            <a href="#" aria-label="Facebook">Facebook</a>
           </div>
         </div>
 
@@ -17,7 +15,6 @@
           <ul>
             <li><a href="#features">Características</a></li>
             <li><a href="#video">Demostración</a></li>
-            <li><a href="#">Precios</a></li>
             <li><a href="#">Seguridad</a></li>
           </ul>
         </div>
@@ -28,7 +25,7 @@
             <li><a href="#">Acerca de</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Carreras</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li><a href="#contact">Contacto</a></li>
           </ul>
         </div>
 

@@ -6,12 +6,11 @@
           <h1 class="hero-title">ERP para Desarrollo Organizacional</h1>
           <p class="hero-subtitle">Diseñado a la medida de tu organización</p>
           <p class="hero-description">
-            LYTICS es el único software que mide tus competencias, en tu cultura y para tu negocio. 
-            No usamos plantillas genéricas. Construimos un modelo predictivo único para cada empresa.
+            LYTICS es la plataforma SaaS, que mapea tu empresa con precisión.<br />
+            Solicita tu experiencia Lytics.
           </p>
           <div class="hero-buttons">
-            <button class="btn btn-primary">Solicitar Demo</button>
-            <button class="btn btn-secondary">Conocer Más</button>
+            <button class="btn btn-primary">Solicitar Experiencia</button>
           </div>
         </div>
         <div class="hero-image">

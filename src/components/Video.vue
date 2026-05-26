@@ -4,21 +4,27 @@
       <div class="video-header">
         <h2>Bienvenido a Lytics</h2>
         <p>Descubre cómo Lytics transforma el desarrollo organizacional</p>
+        
+        <div class="logos-container">
+          <img src="@/assets/Logo LYTICS MEX.png" alt="Lytics México" class="logo-image" />
+          <img src="@/assets/Logo LYTICS CHI.png" alt="Lytics Chile" class="logo-image" />
+          <img src="@/assets/Logo LYTICS ESP.png" alt="Lytics España" class="logo-image" />
+        </div>
       </div>
+    </div>
 
-      <div class="video-container">
-        <video 
-          class="video-element" 
-          autoplay 
-          muted 
-          loop 
-          playsinline
-        >
-          <source src="@/assets/mixkit-corporate-and-business-buildings-in-the-city-4170-hd-ready.mp4" type="video/mp4">
-          Tu navegador no soporta el elemento de video.
-        </video>
-        <div class="video-overlay"></div>
-      </div>
+    <div class="video-container">
+      <video 
+        class="video-element" 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+      >
+        <source src="@/assets/mixkit-corporate-and-business-buildings-in-the-city-4170-hd-ready.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+      </video>
+      <div class="video-overlay"></div>
     </div>
   </section>
 </template>
@@ -31,7 +37,8 @@ export default {
 
 <style scoped>
 .video-section {
-  padding: var(--spacing-3xl) 0;
+  padding-top: var(--spacing-3xl);
+  padding-bottom: var(--spacing-3xl);
   background-color: var(--color-white);
 }
 
@@ -54,16 +61,40 @@ export default {
 .video-header p {
   font-size: var(--font-size-lg);
   color: var(--color-gray-600);
-  margin: 0;
+  margin: 0 0 var(--spacing-2xl) 0;
+}
+
+.logos-container {
+  display: flex;
+  gap: var(--spacing-xl);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: var(--spacing-2xl);
+}
+
+.logo-image {
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+  transition: transform var(--transition-fast);
+}
+
+.logo-image:hover {
+  transform: scale(1.05);
 }
 
 .video-container {
   position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  padding-bottom: 36.25%;
   height: 0;
   overflow: hidden;
-  border-radius: var(--border-radius-lg);
   background-color: var(--color-gray-100);
   box-shadow: var(--shadow-lg);
 }

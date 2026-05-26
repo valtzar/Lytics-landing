@@ -2,15 +2,17 @@
   <header class="header">
     <div class="container">
       <div class="header-content">
-        <Logo height="100px" />
+        <a href="#video" class="logo-link">
+          <Logo height="100px" />
+        </a>
         <nav class="nav">
           <a href="#features" class="nav-link">Características</a>
           <a href="#video" class="nav-link">Demostración</a>
-          <a href="#cta" class="nav-link">Contacto</a>
+          <a href="#contact" class="nav-link">Contacto</a>
         </nav>
         <div class="header-actions">
           <ThemeToggle />
-          <button class="btn btn-primary nav-cta">Comenzar Ahora</button>
+          <a href="#contact" class="btn btn-primary nav-cta">Comenzar Ahora</a>
         </div>
       </div>
     </div>
@@ -46,6 +48,19 @@ export default {
   padding: 0 var(--spacing-md);
 }
 
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
 .header-content {
   display: flex;
   align-items: center;
@@ -59,6 +74,7 @@ export default {
   align-items: center;
   gap: var(--spacing-xl);
   flex: 1;
+  justify-content: center;
 }
 
 .nav-link {
@@ -76,6 +92,7 @@ export default {
   align-items: center;
   gap: var(--spacing-md);
   flex-shrink: 0;
+  justify-content: flex-end;
 }
 
 .nav-cta {

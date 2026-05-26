@@ -21,7 +21,7 @@
         <div class="personalization-card">
           <div class="card-header">
             <div class="card-icon">✔</div>
-            <h3>Ponderadores Ajustados a tu Cultura</h3>
+            <h3>Ponderadores Ajustados a tu Cultura Organizacional</h3>
           </div>
           <div class="card-content">
             <p>Cada una de las 7 variables se calibra según el contexto organizacional.</p>
@@ -43,7 +43,7 @@
       </div>
 
       <div class="personalization-quote">
-        <p>"Las competencias se diseñan por grupos de trabajo que convivan diariamente."</p>
+        <p>"Inteligencia Artificial opcional en cualquiera de nuestros módulos."</p>
       </div>
     </div>
   </section>

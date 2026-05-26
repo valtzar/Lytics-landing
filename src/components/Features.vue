@@ -2,10 +2,7 @@
   <section class="features" id="features">
     <div class="container">
       <div class="features-header">
-        <h2>El Modelo de 7 Variables</h2>
-        <p class="features-subtitle">
-          Validado empíricamente y patentado. Implementado en Zurich, Skechers y la Universidad de Chile.
-        </p>
+        <h2>El Modelo Patentado de 7 Variables Complejas</h2>
       </div>
 
       <div class="features-grid">

@@ -2,8 +2,8 @@
   <section class="intelligent-alerts">
     <div class="container">
       <div class="alerts-header">
-        <h2>🚦 Alarmas Inteligentes que se Ajustan a tu Cultura</h2>
-        <p>LYTICS detecta riesgos reales dentro de tu organización, no de un modelo estándar</p>
+        <h2>Alarmas Inteligentes que se Ajustan a tu Cultura</h2>
+        <p>LYTICS detecta riesgos reales dentro de tu organización, no de un modelo estándar.</p>
       </div>
 
       <div class="alerts-list">
