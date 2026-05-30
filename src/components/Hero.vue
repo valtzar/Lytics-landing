@@ -14,7 +14,7 @@
           </div>
         </div>
         <div class="hero-image">
-          <img src="@/assets/matriz talentos.svg" alt="Matriz de Talentos" class="hero-svg" />
+          <img src="@/assets/Hero Lytics.png" alt="Hero Lytics" class="hero-svg" />
         </div>
       </div>
     </div>

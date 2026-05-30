@@ -13,19 +13,7 @@
       </div>
     </div>
 
-    <div class="video-container">
-      <video 
-        class="video-element" 
-        autoplay 
-        muted 
-        loop 
-        playsinline
-      >
-        <source src="@/assets/mixkit-corporate-and-business-buildings-in-the-city-4170-hd-ready.mp4" type="video/mp4">
-        Tu navegador no soporta el elemento de video.
-      </video>
-      <div class="video-overlay"></div>
-    </div>
+
   </section>
 </template>
 
