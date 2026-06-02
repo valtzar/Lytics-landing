@@ -46,7 +46,7 @@ export default {
         this.isDark = savedTheme === 'dark'
         this.applyTheme(this.isDark)
       } else {
-        this.isDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+        this.isDark = false
         this.applyTheme(this.isDark)
       }
     },
