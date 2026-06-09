@@ -91,7 +91,7 @@ export default {
 .service-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--spacing-3xl);
+  gap: var(--spacing-xl);
   align-items: center;
 }
 
@@ -102,9 +102,23 @@ export default {
 }
 
 .service-item {
-  display: flex;
-  gap: var(--spacing-lg);
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  align-items: start;
+}
+
+.item-number {
+  grid-row: 1 / 3;
+}
+
+.service-item h3 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.service-item p {
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .item-number {
@@ -124,7 +138,7 @@ export default {
 .service-item h3 {
   font-size: var(--font-size-lg);
   color: var(--color-white);
-  margin: 0 0 var(--spacing-sm) 0;
+  margin: 0 0 var(--spacing-xs) 0;
   font-weight: var(--font-weight-bold);
 }
 
@@ -132,7 +146,7 @@ export default {
   margin: 0;
   font-size: var(--font-size-base);
   color: rgba(255, 255, 255, 0.85);
-  line-height: var(--line-height-normal);
+  line-height: var(--line-height-tight);
 }
 
 .service-highlight {

@@ -3,10 +3,10 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-text">
-          <h1 class="hero-title">ERP para Desarrollo Organizacional</h1>
-          <p class="hero-subtitle">Diseñado a la medida de tu organización</p>
+          <h1 class="hero-title">El software con IA preferido de las consultoras</h1>
+          <p class="hero-subtitle">Diseñado y pensado para empresas de todos los tamaños</p>
           <p class="hero-description">
-            LYTICS es la plataforma SaaS, que mapea tu empresa con precisión.<br />
+            LYTICS es People Analytics de gran nivel<br />
             Solicita tu experiencia Lytics.
           </p>
           <div class="hero-buttons">
@@ -53,9 +53,9 @@ export default {
 }
 
 .hero-title {
-  font-size: var(--font-size-5xl);
+  font-size: var(--font-size-4xl);
   line-height: var(--line-height-tight);
-  color: var(--color-black);
+  color: var(--color-gray-600);
   font-weight: var(--font-weight-bold);
 }
 
@@ -68,7 +68,7 @@ export default {
 
 .hero-description {
   font-size: var(--font-size-lg);
-  color: var(--color-gray-600);
+  color: var(--color-gray-700);
   line-height: var(--line-height-relaxed);
 }
 
