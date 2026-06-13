@@ -7,10 +7,6 @@
           Un modelo predictivo que mide lo que realmente importa para tu negocio. 
           Acompañamiento + Software = People Analytics con rigor técnico y sensibilidad organizacional.
         </p>
-        <div class="cta-buttons">
-          <button class="btn btn-primary btn-large">Solicitar Demo Gratuita</button>
-          <button class="btn btn-secondary btn-large">Conocer Más</button>
-        </div>
       </div>
     </div>
   </section>

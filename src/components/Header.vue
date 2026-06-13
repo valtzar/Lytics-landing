@@ -23,11 +23,11 @@
               <a href="#" class="dropdown-item">Consultoría en Gestión de personas</a>
             </div>
           </div>
-          <a href="#contact" class="nav-link">Contacto</a>
+          <a href="#contact" class="nav-link">Demo Selección</a>
         </nav>
         <div class="header-actions">
           <ThemeToggle />
-          <a href="#contact" class="btn btn-primary nav-cta">Comenzar Ahora</a>
+          <a href="https://lytics-light-frontend.onrender.com/login" class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Comenzar Ahora</a>
         </div>
       </div>
     </div>
@@ -193,6 +193,10 @@ export default {
 
 .nav-cta {
   flex-shrink: 0;
+}
+
+.nav-cta:hover {
+  color: var(--color-white);
 }
 
 @media (max-width: 768px) {

@@ -44,6 +44,7 @@ export default {
 .video-header h2 {
   font-size: var(--font-size-4xl);
   margin-bottom: var(--spacing-md);
+  color: var(--color-gray-700);
 }
 
 .video-header p {

@@ -10,7 +10,7 @@
             Solicita tu experiencia Lytics.
           </p>
           <div class="hero-buttons">
-            <button class="btn btn-primary">Solicitar Experiencia</button>
+            <button class="btn btn-primary" @click="openRequestModal">Solicitar Experiencia</button>
           </div>
         </div>
         <div class="hero-image">
@@ -18,12 +18,34 @@
         </div>
       </div>
     </div>
+    <RequestExperienceModal 
+      :isOpen="showRequestModal" 
+      @close="closeRequestModal"
+    />
   </section>
 </template>
 
 <script>
+import RequestExperienceModal from './RequestExperienceModal.vue'
+
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  components: {
+    RequestExperienceModal
+  },
+  data() {
+    return {
+      showRequestModal: false
+    }
+  },
+  methods: {
+    openRequestModal() {
+      this.showRequestModal = true
+    },
+    closeRequestModal() {
+      this.showRequestModal = false
+    }
+  }
 }
 </script>
 
