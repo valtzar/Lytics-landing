@@ -2,42 +2,6 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
-        <div class="footer-section">
-          <h4>Lytics</h4>
-          <p>Transformando el desarrollo organizacional con tecnología e innovación.</p>
-          <div class="social-links">
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
-          </div>
-        </div>
-
-        <div class="footer-section">
-          <h5>Producto</h5>
-          <ul>
-            <li><a href="#features">Características</a></li>
-            <li><a href="#video">Demostración</a></li>
-            <li><a href="#">Seguridad</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h5>Empresa</h5>
-          <ul>
-            <li><a href="#">Acerca de</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Carreras</a></li>
-            <li><a href="#contact">Contacto</a></li>
-          </ul>
-        </div>
-
-        <div class="footer-section">
-          <h5>Legal</h5>
-          <ul>
-            <li><a href="#">Privacidad</a></li>
-            <li><a href="#">Términos</a></li>
-            <li><a href="#">Cookies</a></li>
-            <li><a href="#">Compliance</a></li>
-          </ul>
-        </div>
       </div>
 
       <div class="footer-bottom">

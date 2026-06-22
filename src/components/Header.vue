@@ -23,7 +23,6 @@
               <a href="#" class="dropdown-item">Consultoría en Gestión de personas</a>
             </div>
           </div>
-          <a href="#contact" class="nav-link">Demo Selección</a>
         </nav>
         <div class="header-actions">
           <ThemeToggle />
