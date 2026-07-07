@@ -3,7 +3,6 @@
     <Video />
     <Hero />
     <Personalization />
-    <Features />
     <IntelligentAlerts />
     <PremiumService />
     <ManagerBenefits />
@@ -16,7 +15,6 @@
 import Video from '../components/Video.vue'
 import Hero from '../components/Hero.vue'
 import Personalization from '../components/Personalization.vue'
-import Features from '../components/Features.vue'
 import IntelligentAlerts from '../components/IntelligentAlerts.vue'
 import PremiumService from '../components/PremiumService.vue'
 import ManagerBenefits from '../components/ManagerBenefits.vue'
@@ -29,7 +27,6 @@ export default {
     Video,
     Hero,
     Personalization,
-    Features,
     IntelligentAlerts,
     PremiumService,
     ManagerBenefits,

@@ -21,21 +21,31 @@
     <RequestExperienceModal 
       :isOpen="showRequestModal" 
       @close="closeRequestModal"
+      @success="showSuccessToast"
+      @error="showErrorToast"
+    />
+    <Toast 
+      :message="toastMessage"
+      :type="toastType"
     />
   </section>
 </template>
 
 <script>
 import RequestExperienceModal from './RequestExperienceModal.vue'
+import Toast from './Toast.vue'
 
 export default {
   name: 'Hero',
   components: {
-    RequestExperienceModal
+    RequestExperienceModal,
+    Toast
   },
   data() {
     return {
-      showRequestModal: false
+      showRequestModal: false,
+      toastMessage: '',
+      toastType: 'success'
     }
   },
   methods: {
@@ -44,6 +54,14 @@ export default {
     },
     closeRequestModal() {
       this.showRequestModal = false
+    },
+    showSuccessToast(message) {
+      this.toastType = 'success'
+      this.toastMessage = message
+    },
+    showErrorToast(message) {
+      this.toastType = 'error'
+      this.toastMessage = message
     }
   }
 }

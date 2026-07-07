@@ -9,7 +9,6 @@
           <span class="menu-arrow">▼</span>
         </button>
         <nav class="nav" :class="{ active: isMobileMenuOpen }">
-          <a href="#features" class="nav-link" @click="closeMobileMenu">Características</a>
           <div class="dropdown-container">
             <button class="nav-link dropdown-toggle" @click="toggleDropdown">
               Certificaciones

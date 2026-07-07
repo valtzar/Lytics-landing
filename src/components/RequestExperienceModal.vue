@@ -156,6 +156,7 @@ export default {
         if (response.status === 200) {
           this.submitStatus = 'success';
           this.submitMessage = '¡Solicitud enviada exitosamente! Nos pondremos en contacto pronto.';
+          this.$emit('success', '¡Solicitud enviada exitosamente! Nos pondremos en contacto pronto.');
           this.resetForm();
           
           setTimeout(() => {
@@ -167,6 +168,7 @@ export default {
       } catch (error) {
         this.submitStatus = 'error';
         this.submitMessage = 'Hubo un error al enviar tu solicitud. Por favor, intenta de nuevo.';
+        this.$emit('error', 'Hubo un error al enviar tu solicitud. Por favor, intenta de nuevo.');
         console.error('Error:', error);
       } finally {
         this.isSubmitting = false;
