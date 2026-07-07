@@ -120,6 +120,10 @@ export default {
     font-size: var(--font-size-base);
   }
 
+  .logo-image {
+    max-width: 150px;
+  }
+
   .video-container {
     border-radius: var(--border-radius-md);
   }

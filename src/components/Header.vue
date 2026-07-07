@@ -5,28 +5,31 @@
         <a href="#video" class="logo-link">
           <Logo height="100px" />
         </a>
-        <nav class="nav">
-          <a href="#features" class="nav-link">Características</a>
+        <button class="menu-toggle" @click="toggleMobileMenu" :class="{ open: isMobileMenuOpen }">
+          <span class="menu-arrow">▼</span>
+        </button>
+        <nav class="nav" :class="{ active: isMobileMenuOpen }">
+          <a href="#features" class="nav-link" @click="closeMobileMenu">Características</a>
           <div class="dropdown-container">
             <button class="nav-link dropdown-toggle" @click="toggleDropdown">
               Certificaciones
               <span class="dropdown-arrow" :class="{ open: isDropdownOpen }">▼</span>
             </button>
             <div class="dropdown-menu" v-show="isDropdownOpen">
-              <a href="#" class="dropdown-item">Desarrollo Organizacional</a>
-              <a href="#" class="dropdown-item">IA para gestionar personas</a>
-              <a href="#" class="dropdown-item">Selección por competencias básico y avanzado</a>
-              <a href="#" class="dropdown-item">Plataforma Lytics</a>
-              <a href="#" class="dropdown-item">Coaching metodología Rapport</a>
-              <a href="#" class="dropdown-item">Diseño Evaluación del Desempeño</a>
-              <a href="#" class="dropdown-item">Diseño perfiles de Cargo con IA</a>
-              <a href="#" class="dropdown-item">Consultoría en Gestión de personas</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Desarrollo Organizacional</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">IA para gestionar personas</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Selección por competencias básico y avanzado</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Plataforma Lytics</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Coaching metodología Rapport</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Diseño Evaluación del Desempeño</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Diseño perfiles de Cargo con IA</a>
+              <a href="#" class="dropdown-item" @click="closeMobileMenu">Consultoría en Gestión de personas</a>
             </div>
           </div>
         </nav>
-        <div class="header-actions">
+        <div class="header-actions" :class="{ active: isMobileMenuOpen }">
           <ThemeToggle />
-          <a href="https://lytics-light-frontend.onrender.com/login" class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Comenzar Ahora</a>
+          <a href="https://seleccion.lytics.cl/" class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer" @click="closeMobileMenu">Comenzar Ahora</a>
         </div>
       </div>
     </div>
@@ -45,7 +48,8 @@ export default {
   },
   data() {
     return {
-      isDropdownOpen: false
+      isDropdownOpen: false,
+      isMobileMenuOpen: false
     }
   },
   methods: {
@@ -53,6 +57,13 @@ export default {
       this.isDropdownOpen = !this.isDropdownOpen
     },
     closeDropdown() {
+      this.isDropdownOpen = false
+    },
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen
+    },
+    closeMobileMenu() {
+      this.isMobileMenuOpen = false
       this.isDropdownOpen = false
     }
   },
@@ -198,26 +209,103 @@ export default {
   color: var(--color-white);
 }
 
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-arrow {
+  font-size: var(--font-size-2xl);
+  color: var(--color-gray-700);
+  transition: transform var(--transition-fast);
+  display: inline-block;
+}
+
+.menu-toggle.open .menu-arrow {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 768px) {
   .header-content {
-    flex-direction: column;
-    gap: var(--spacing-md);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
     padding: var(--spacing-md) 0;
+    gap: var(--spacing-md);
+  }
+
+  .menu-toggle {
+    display: flex;
+    grid-column: 2;
+    grid-row: 1;
   }
 
   .nav {
+    grid-column: 1 / -1;
     flex-direction: column;
     width: 100%;
     gap: var(--spacing-md);
-    align-items: center;
+    align-items: flex-start;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-fast);
+  }
+
+  .nav.active {
+    max-height: 500px;
+    padding: var(--spacing-md) 0;
+    border-top: 1px solid var(--color-gray-100);
+    border-bottom: 1px solid var(--color-gray-100);
   }
 
   .nav-link {
     font-size: var(--font-size-sm);
   }
 
+  .header-actions {
+    display: none;
+    grid-column: 1 / -1;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    width: 100%;
+  }
+
+  .header-actions.active {
+    display: flex;
+  }
+
   .nav-cta {
     width: 100%;
+  }
+
+  .dropdown-menu {
+    position: static;
+    min-width: 100%;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background-color: var(--color-gray-50);
+    margin: 0;
+    margin-top: var(--spacing-sm);
+  }
+
+  .dropdown-item {
+    border-radius: 0;
+  }
+
+  .dropdown-item:first-child {
+    border-radius: 0;
+  }
+
+  .dropdown-item:last-child {
+    border-radius: 0;
   }
 }
 </style>
