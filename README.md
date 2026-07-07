@@ -23,7 +23,6 @@ lytics landing/
 │   ├── components/
 │   │   ├── Header.vue
 │   │   ├── Hero.vue
-│   │   ├── Features.vue
 │   │   ├── Video.vue
 │   │   ├── CTA.vue
 │   │   └── Footer.vue
@@ -50,13 +49,7 @@ lytics landing/
 - Botones de acción
 - Animación de elemento flotante
 
-### 3. Features (Características)
-- 6 características principales en grid responsive
-- Iconos emoji
-- Tarjetas con efecto hover
-- Fondo gris claro
-
-### 4. Video
+### 3. Video
 - Sección con video corporativo
 - Proporciones 16:9 (responsive)
 - Loop automático sin sonido
